@@ -52,7 +52,7 @@ This script is for post molecular dynamics simulations analysis using MDTraj (v1
 
 
 
-3.
+3. BBB_analysis_and_pharmacokinetic_parameters.ipynb
 
 This script predicts the pharmacokinetic properties relevant to blood-brain barrier permeability (LogP, LogD, TPSA, MW, P-gp efflux, and resulting logBB values) for drug candidates using publicly available databases and cheminformatics tools.
 
