@@ -1,4 +1,4 @@
-1.
+1. mergepsf2.tcl
 
 Merge PSF/PDB Files for NAMD
 
@@ -44,6 +44,9 @@ Paths are currently hardcoded for macOS; modify them as needed for other environ
 
 
 
+
+
 2. Post_MD_Simulation_analysis.ipynb
   
-Post molecular dynamics simulations analysis using MDTraj (v1.9.7) and MDAnalysis (v2.4.2) to analyze 100 ns trajectories of seven drug candidates bound to five proteins. 
+ This script is for post molecular dynamics simulations analysis using MDTraj (v1.9.7) and MDAnalysis (v2.4.2) to analyze 100 ns trajectories of seven drug candidates bound to five proteins. Root mean square deviation (RMSD) of the protein backbone and the ligand heavy atoms is calculated as well as the solvent-accessible surface area (SASA) for both the protein and the ligand using the Shrake-Rupley algorithm implemented in MDTraj. Hydrogen bond (H-bond) analysis is computed using the Wernet-Nilsson method in MDTraj. 
+
