@@ -1,3 +1,5 @@
+1.
+
 Merge PSF/PDB Files for NAMD
 
 This Tcl script merges two molecular structures—a protein (PAX6) and a ligand (tonaftate)—into a single .psf and .pdb file for molecular dynamics simulations using NAMD and VMD.
@@ -39,3 +41,9 @@ complex.pdb – merged coordinate file
 PS:
 The script includes checks for file existence and will exit with a clear error message if any file is missing.
 Paths are currently hardcoded for macOS; modify them as needed for other environments.
+
+
+
+2. Post_MD_Simulation_analysis.ipynb
+  
+Post molecular dynamics simulations analysis using MDTraj (v1.9.7) and MDAnalysis (v2.4.2) to analyze 100 ns trajectories of seven drug candidates bound to five proteins. 
